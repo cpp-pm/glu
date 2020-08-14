@@ -1,6 +1,6 @@
 @PACKAGE_INIT@
 
-if(ANDROID)
+if(ANDROID OR IOS)
     find_package(gl4es CONFIG REQUIRED)
 else()
     find_package(OpenGL REQUIRED)
