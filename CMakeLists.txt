@@ -7,8 +7,8 @@ if(WITH_GL4ES)
 
     include(cmake/HunterGate.cmake)
     HunterGate(
-        URL "https://github.com/cpp-pm/hunter/archive/v0.23.245.tar.gz"
-        SHA1 "36e7f44ee4b3f8e25683e9d700f05a27ecb0a848"
+        URL "https://github.com/cpp-pm/hunter/archive/v0.23.264.tar.gz"
+        SHA1 "45ab668f0923fc3ace807a34d971e34ce7428dfd"
     )
 endif()
 
